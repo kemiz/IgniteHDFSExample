@@ -1,6 +1,3 @@
-import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.fs.FSDataInputStream;
-import org.apache.hadoop.fs.Path;
 import org.apache.ignite.Ignite;
 import org.apache.ignite.IgniteCache;
 import org.apache.ignite.Ignition;
@@ -41,7 +38,6 @@ public class HDFSExample {
     }
 
     private void loadData() {
-        Configuration conf = new Configuration();
         try {
             loadCompaniesFromCSV("data/companies.txt");
             loadEmployeesFromCSV("data/employees.txt");

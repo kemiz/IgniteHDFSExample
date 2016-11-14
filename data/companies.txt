@@ -1,0 +1,10 @@
+1,GridGain
+2,Apple
+3,Microsoft
+4,Oracle
+5,Google
+6,Facebook
+7,Twitter
+8,SAP
+9,Huawei
+10,BT
